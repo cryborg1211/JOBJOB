@@ -1,0 +1,64 @@
+.hero {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .logo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .logo-j {
+    height: 120px;
+  }
+  
+  .logo-text {
+    font-family: 'Archivo Black', sans-serif;
+    margin-bottom: 3px;
+    margin-right: 2px;
+    font-size: 64px;
+    font-weight: 1000;
+    color: #4e7eff;
+
+  }
+  
+  .slogan {
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    margin-top: 1px;
+    color: rgba(55, 85, 163, 1);
+    font-size: 12px;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-top: 24px;
+  }
+  
+  .signup-form input {
+    font-family: Archivo, sans-serif;
+
+    background-color: rgba(165, 187, 246, 1);
+    width: 300px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #c6d2f5;
+    font-size: 14px;
+  }
+  
+  .signup-form button {
+    margin-top: 8px;
+    padding: 10px 20px;
+    background-color: #4e7eff;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-weight: bold;
+    box-shadow: 2px 3px 0 #000;
+  }
+  
