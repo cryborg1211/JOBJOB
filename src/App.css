@@ -42,7 +42,7 @@
   
   .signup-form input {
     font-family: Archivo, sans-serif;
-
+    color: rgba(255, 255, 255, 1);
     background-color: rgba(165, 187, 246, 1);
     width: 300px;
     padding: 10px;
@@ -57,7 +57,7 @@
     background-color: #4e7eff;
     color: white;
     border: none;
-    border-radius: 12px;
+    border-radius: 34px;
     font-weight: bold;
     box-shadow: 2px 3px 0 #000;
   }
