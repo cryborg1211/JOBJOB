@@ -12,7 +12,7 @@ function App() {
           <h1 className="logo-text">obJob</h1>
         </div>
 
-        <p className="slogan">Lướt để tìm việc, Match để thành công</p>
+        <p className="slogan">Lướt để tìm việc, Match để thành công!</p>
 
         <form className="signup-form">
           <input type="email" placeholder="Nhập tài khoản email" />
