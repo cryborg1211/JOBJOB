@@ -1,6 +1,7 @@
 import Logo from './assets/Logo.png'; 
 import React from 'react';
 import './Header.css';
+import { Link } from 'react-router-dom'; 
 
 function Header() {
     return (
@@ -19,10 +20,12 @@ function Header() {
           <li><a href="#">Contact</a></li>
           <image src={Logo} alt="This is JobJob Logo" className="logo" />
         </ul>
-  
-        <div className="navbar-right">
-          <button className="login-btn">Log In</button>
-        </div>
+
+        <Link to='/login'> 
+          <div className="navbar-right">
+            <button className="login-btn">Log In</button>
+          </div>
+        </Link> 
       </nav>
     );
   }

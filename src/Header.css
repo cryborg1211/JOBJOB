@@ -24,7 +24,10 @@
     display: flex;
     align-items: center;
   }
-  
+
+  .navbar a {
+    text-decoration: none;
+  }
   
   .nav-links {
     flex: 1;
@@ -53,5 +56,6 @@
     color: #4f46e5;
     border-radius: 8px;
     cursor: pointer;
+    text-decoration: none;
   }
   
