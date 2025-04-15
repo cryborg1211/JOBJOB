@@ -4,5 +4,5 @@
 
 2. Start local host
 - npm run dev
-By default, the app will run at: http://localhost:5173
+- By default, the app will run at: http://localhost:5173
 
