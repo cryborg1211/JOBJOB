@@ -9,24 +9,28 @@ JOBJOB is an application that connects employers and job seekers, using a dating
 * **Bias in recruitment:** The application tackles biases related to gender, age, education, and school background in the hiring process. 
 * **Disconnect between employers and job seekers:** The application aims to reduce the difficulty employers face in finding suitable candidates and the lack of feedback often experienced by applicants. 
 
+## Proposed Solutions
+
+* **Fair recruitment environment:**
+    * Editing biased language in job descriptions. 
+    * Filtering biases and summarizing candidate profiles, focusing on skills and abilities. 
+    * Recommending suitable candidate profiles or job descriptions. 
+* **Effective connection:**
+    * Using a "swipe left, swipe right" interface to connect employers and job seekers. 
+    * Sending interview invitations when both parties "swipe right." 
+      
 ## Development Team
 
 * **Team Leader:** Cao Bảo Khương
     * University: International University - VNU-HCM
-    * Student ID: ITDSIU22176
-    * Year: 3
     * Phone: 0838080604
     * Email: <caokhuong12311@gmail.com> 
 * **Team Members:**
     * Đặng Phương Mai
         * University: International University - VNU-HCM
-        * Student ID: ITDSIU22172
-        * Year: 3
         * Phone: 0942196461
         * Email: <dangphuongmai552004@gmail.com> 
     * Nguyễn Xuân Trâm Anh
         * University: International University - VNU-HCM
-        * Student ID: ITDSIU22177
-        * Year: 3
         * Phone: 0782756993
         * Email: <tramanhxuannguyen0304@gmail.com> 
