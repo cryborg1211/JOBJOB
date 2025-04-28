@@ -4,31 +4,42 @@ import './UserSelection.css';
 import LogoJ from '../assets/Logo.png'; 
 import EmployerIcon from '../assets/Employer_Icon.png';
 import EmplyoyeeIcon from '../assets/Employee_Icon.png';
+import { Helmet } from 'react-helmet';
+
 function UserSelection() {
+
   return (
-    <div className="selection-container">
-      <div className="selection-logo">
-        <img src={LogoJ} alt="Logo JobJob" />
-    </div>
+    <>
+      <Helmet> 
+        <title>JOBJOB - Chọn loại tài khoản</title>
+      </Helmet>
+      
+      <div className="selection-container">
+        <div className="selection-logo">
+          <img src={LogoJ} alt="Logo JobJob" />
+      </div>
 
 
-    <h2 className="selection-title">Bạn là</h2>
-      <div className="selection-options">
-        <div className="selection-block">
-          <img src={EmployerIcon} alt="Nhà tuyển dụng" className="selection-icon" />  {/*Employer selection*/}
-          <Link to="/nha-tuyen-dung" className="selection-button employer">
-            Nhà tuyển dụng
-          </Link>
-        </div>
+      <h2 className="selection-title">Bạn là</h2>
+        <div className="selection-options">
+          <div className="selection-block">
+            <img src={EmployerIcon} alt="Nhà tuyển dụng" className="selection-icon" />  {/*Employer selection*/}
+            <Link to="/nha-tuyen-dung" className="selection-button employer">
+              Nhà tuyển dụng
+            </Link>
+          </div>
 
-        <div className="selection-block">
-          <img src={EmplyoyeeIcon} alt="Ứng viên" className="selection-icon" />  {/*Employee selection*/}
-          <Link to="/ung-vien" className="selection-button candidate">
-            Ứng viên
-          </Link>
+          <div className="selection-block">
+            <img src={EmplyoyeeIcon} alt="Ứng viên" className="selection-icon" />  {/*Employee selection*/}
+            <Link to="/CV-ung-vien" className="selection-button candidate">
+              Ứng viên
+            </Link>
+          </div>
         </div>
       </div>
-    </div>
+    </>
+
+    
   );
 }
 
