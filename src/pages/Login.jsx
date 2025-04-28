@@ -1,6 +1,7 @@
 import React from 'react';
 import './Login.css'; 
 import LogoJ from './pages_assets/Logo.png';
+import { Link } from 'react-router-dom'; 
 
 
 function Login() {
@@ -17,10 +18,12 @@ function Login() {
             <form className="login-form">                        {/* Login input field */}
                 <input type="email" placeholder="Email" />
                 <input type="password" placeholder="Mật khẩu" />
-                <button type="submit">Đăng nhập</button>
+                <Link to="/select-user-type" className="login-submit-link"> 
+                  <button type="button">Đăng nhập</button> 
+                </Link>
             </form>
 
-            <p className="to-signup">Chưa có tài khoản? <a href="/">Đăng ký</a></p>
+            <p className="to-signup">Chưa có tài khoản? <a href="/">Đăng ký</a></p>  {/*Return to signup page*/}
         </div>
     </>
   );

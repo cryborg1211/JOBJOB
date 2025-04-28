@@ -1,0 +1,128 @@
+.selection-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f0f4ff;
+  overflow: hidden; 
+  position: relative; 
+}
+
+.selection-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%; 
+  background-color: #4e7eff;
+  z-index: 0;
+}
+
+.selection-logo img {
+  height: 60px;
+  margin-right: 30px;
+  position: absolute;
+  top: 35px;
+  left: 40px;
+  margin-bottom: 0;
+}
+
+
+.selection-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  color: white;
+  background-color: #4e7eff;
+  border: 5px solid white;
+  border-radius: 40px;
+  margin-bottom: 30px;
+  padding: 5px 80px; 
+  z-index: 1;
+}
+
+.selection-options {
+  display: flex;
+  gap: 450px; 
+  flex-wrap: nowrap; 
+  z-index: 1;
+}
+
+.selection-block {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.selection-button {
+  display: flex;
+  padding: 20px 40px;    
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px; 
+  box-sizing: border-box; 
+}
+
+.selection-button:hover {
+  transform: translateY(-5px);
+}
+
+.selection-icon {
+  width: 180px;
+
+  margin-bottom: 12px; 
+  object-fit: contain;
+}
+
+
+.selection-button.employer {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  background-color: white;
+  color: #4e7eff;
+  border: 2px solid #eef2ff;
+}
+
+
+.selection-button.candidate {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  background-color: #4e7eff;
+  color: white;
+  border: 2px solid #4e7eff;
+}
+
+
+@media (max-width: 600px) {
+  .selection-options {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 90%; 
+  }
+
+  .selection-button {
+    width: 80%; 
+    max-width: 250px;
+    min-width: 150px; 
+    padding: 15px 20px;
+  }
+
+  .selection-title {
+     font-size: 40px;
+     padding: 8px 40px;
+  }
+}

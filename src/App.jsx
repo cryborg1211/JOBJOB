@@ -15,10 +15,10 @@ function App() {
         <p className="slogan">Lướt để tìm việc, Match để thành công!</p>
 
         <form className="signup-form">                                    
-          <input type="email" placeholder="Nhập tài khoản email" />  {/* Signup input field */}
+          <input type="email" placeholder="Nhập tài khoản email" />  {/*Signup input field */}
           <input type="password" placeholder="Nhập mật khẩu" />
           <input type="password" placeholder="Nhập lại mật khẩu" />
-          <button type="submit">Sign Up</button>
+          <button type="submit">Sign Up</button>                     {/*Sign up button*/}
         </form>
       </div>
     </>

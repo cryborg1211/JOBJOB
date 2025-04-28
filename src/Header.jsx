@@ -16,7 +16,7 @@ function Header() {
         <ul className="nav-links">
           <li><a href='#' img> </a></li>
           <li><a href="#">About us</a></li>
-          <li><a href="#">Sign Up</a></li>
+          <li><a href="#">Sign Up</a></li>                                  {/*kệ cái file này i*/}
           <li><a href="#">Contact</a></li>
           <image src={Logo} alt="This is JobJob Logo" className="logo" />
         </ul>
