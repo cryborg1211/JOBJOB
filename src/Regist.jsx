@@ -1,14 +1,14 @@
 import Header from './Header.jsx';
 import LogoJ from './assets/Logo.png';
-import './App.css'; 
-import { Helmet } from 'react-helmet';
+import './Regist.css'; 
+import { HelmetProvider } from 'react-helmet-async';
 
-function App() {
+function Regist() {
   return (
     <>
-      <Helmet>
+      <HelmetProvider>
         <title>JOBJOB - Đăng ký</title>
-      </Helmet>
+      </HelmetProvider>
       
       <Header />                                                          
       
@@ -31,4 +31,4 @@ function App() {
   );
 }
 
-export default App;
+export default Regist;

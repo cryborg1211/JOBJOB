@@ -4,15 +4,15 @@ import './UserSelection.css';
 import LogoJ from '../assets/Logo.png'; 
 import EmployerIcon from '../assets/Employer_Icon.png';
 import EmplyoyeeIcon from '../assets/Employee_Icon.png';
-import { Helmet } from 'react-helmet';
+import { HelmetProvider } from 'react-helmet-async';
 
 function UserSelection() {
 
   return (
     <>
-      <Helmet> 
+      <HelmetProvider> 
         <title>JOBJOB - Chọn loại tài khoản</title>
-      </Helmet>
+      </HelmetProvider>
       
       <div className="selection-container">
         <div className="selection-logo">

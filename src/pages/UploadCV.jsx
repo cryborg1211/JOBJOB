@@ -2,14 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom'; 
 import './UploadCV.css'; 
 import LogoJ from '../assets/Logo.png'; 
-import { Helmet } from 'react-helmet';
+import { HelmetProvider } from 'react-helmet-async';
 
 function UploadCV() {
     return (
         <>
-            <Helmet>   
+            <HelmetProvider>   
                     <title>JOBJOB - Tải CV</title>
-            </Helmet>
+            </HelmetProvider>
 
             <div className = "upload-container">
                 <div className = "upload-container-logo"> 

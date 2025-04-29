@@ -2,15 +2,15 @@ import React from 'react';
 import './Login.css'; 
 import LogoJ from './pages_assets/Logo.png';
 import { Link } from 'react-router-dom'; 
-import { Helmet } from 'react-helmet';
+import { HelmetProvider } from 'react-helmet-async';
 
 
 function Login() {
   return (
     <>  
-      <Helmet>
+      <HelmetProvider>
         <title>JOBJOB - Đăng nhập</title>
-      </Helmet>
+      </HelmetProvider>
       <div className='login-container'>      
           <div className="logo-wrapper">
               <img src={LogoJ} alt="Logo J" className="logo-j" />
