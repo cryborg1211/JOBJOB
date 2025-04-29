@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import App from './App.jsx'
-import Login from './pages/login';
+import Login from './pages/Login.jsx';
 import UserSelection from './pages/UserSelection.jsx'
 import UploadCV from './pages/UploadCV.jsx'
 import './index.css'
